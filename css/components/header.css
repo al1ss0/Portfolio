@@ -50,11 +50,12 @@ header .header_right .header_image .background {
 
 @media only screen and (max-width: 768px) {
     header {
-      flex-direction: column-reverse;
-      text-align: center;
+        flex-direction: column-reverse;
+        text-align: center;
     }
-  
-    header .header__left p {
-      margin: 2rem auto 4rem;
+
+    header .header_left p {
+        margin: 2rem auto 4rem;
     }
+
 }

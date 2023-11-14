@@ -38,12 +38,12 @@
       align-items: center;
     }
   
-    .about .about__left {
+    .about .about_left {
       max-width: 66rem;
       text-align: center;
     }
   
-    .about .about__right {
+    .about .about_right {
       text-align: center;
     }
 }
