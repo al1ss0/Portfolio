@@ -5,7 +5,7 @@ const REFRESH_MS = 30_000;
 
 // Pergunta para /api/now-playing (Last.fm) o que o Alisson está ouvindo.
 // Sem chave configurada ou se a API falhar, volta { status: 'off' } e o letreiro mostra o texto padrão.
-function useNowPlaying() {
+export function useNowPlaying() {
   const [data, setData] = useState({ status: 'off' });
   useEffect(() => {
     let alive = true;

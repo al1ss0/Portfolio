@@ -34,6 +34,8 @@ export async function getNowPlaying({ apiKey, user, mock } = {}) {
           track: item.name,
           artist: item.artist?.['#text'] ?? item.artist?.name ?? '',
           url: item.url,
+          // capa do álbum (o Last.fm manda vários tamanhos; vazio quando não tem)
+          image: [].concat(item.image ?? []).map((i) => i['#text']).filter(Boolean).pop() ?? '',
         }
       : { status: 'none' };
 
