@@ -85,7 +85,7 @@ export const projects = [
       pt: 'Uma IA que diz ao produtor rural a hora de irrigar a lavoura, usando o clima do lugar, o solo e a cultura. Sem sensores.',
     },
     card: '/assets/card-hidro-bg.png',
-    href: 'https://github.com/al1ss0/Sistema-gestao-hidrica',
+    href: 'https://hidrodecisao.onrender.com',
   },
 ];
 
