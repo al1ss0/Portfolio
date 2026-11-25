@@ -78,14 +78,14 @@ export const projects = [
     href: 'https://github.com/al1ss0/RFID-Project',
   },
   {
-    id: 'ilpi',
-    name: 'ILPI Bem Viver',
+    id: 'hidro',
+    name: 'HidroDecisão',
     description: {
-      en: "Visual identity and app for a senior care home, built to bring families closer to their loved ones' daily routine.",
-      pt: 'Identidade visual e app para uma casa de repouso, pensados para aproximar as famílias do dia a dia de quem elas amam.',
+      en: 'An AI that tells farmers when to irrigate their crops, using local weather, soil and crop data. No sensors needed.',
+      pt: 'Uma IA que diz ao produtor rural a hora de irrigar a lavoura, usando o clima do lugar, o solo e a cultura. Sem sensores.',
     },
-    card: '/assets/card-ilpi-bg.png',
-    href: '',
+    card: '/assets/card-hidro-bg.png',
+    href: 'https://github.com/al1ss0/Sistema-gestao-hidrica',
   },
 ];
 
@@ -143,7 +143,7 @@ export const mobile = {
   },
   status: { title: 'site status', visitor: { en: 'you are visitor number', pt: 'você é o visitante número' } },
   projectsTitle: { en: 'projects', pt: 'projetos' },
-  projectImages: { booking: '/assets/m/proj-booking.jpg', rfid: '/assets/m/proj-rfid.jpg', ilpi: '/assets/m/proj-ilpi.jpg' },
+  projectImages: { booking: '/assets/m/proj-booking.jpg', rfid: '/assets/m/proj-rfid.jpg', hidro: '/assets/m/proj-hidro.jpg' },
   work: { en: 'Let’s work together >>>>>>', pt: 'Bora trabalhar junto >>>>>>' },
   email: `mailto:${EMAIL}?subject=${encodeURIComponent('Portfólio')}`,
   exit: { en: 'exit', pt: 'sair' },
